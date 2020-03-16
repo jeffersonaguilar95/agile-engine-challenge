@@ -1,4 +1,4 @@
-# Simple text editor by Jefferson Aguilar
+# Custom  rich text editor by Jefferson Aguilar
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Main stack:
