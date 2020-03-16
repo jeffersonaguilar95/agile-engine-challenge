@@ -1,0 +1,18 @@
+#control-panel {
+  background-color: #fff;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5px;
+}
+#format-actions {
+  width: 100%;
+  text-align: center;
+}
+#format-actions > button:not(:last-child) {
+  margin-right: 2px;
+}
+.active {
+  background-color: #8f8f8f;
+}
