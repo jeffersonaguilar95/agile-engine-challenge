@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import { Editor } from './.'
+import { Editor } from '../index'
 
 const App = () => {
   return (
