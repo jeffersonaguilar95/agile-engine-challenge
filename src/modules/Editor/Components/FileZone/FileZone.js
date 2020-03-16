@@ -53,6 +53,7 @@ export default function FileZone({
       >
         {text}
       </div>
+      {/* This might be moved to another component but for testing purposes it's ok here */}
       <Dialog
         open={isModalOpen}
         onClose={handleCloseDialog}
@@ -75,7 +76,9 @@ export default function FileZone({
               </ListItem>
             ))
           ) : (
-            <DialogContentText className="synonyms_not_found"> 0 synonyms found</DialogContentText>
+            <DialogContentText className="synonyms_not_found">
+              0 synonyms were found
+            </DialogContentText>
           )}
         </List>
       </Dialog>
